@@ -3,10 +3,12 @@
 <br>
 
 ## 사용 Tools
-- React
-- TypeScript
-- styled-components
-- redux-toolkit
+
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
+  <img src="https://img.shields.io/badge/redux_toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=black"> 
+  <img src="https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+  <img src="https://img.shields.io/badge/typescript-DB7093?style=for-the-badge&logo=typescript&logoColor=white"> 
+  <br>
 
 <br>
 
