@@ -1,25 +1,28 @@
-## [✨ 배포 링크](https://pre-onboarding-7th-3-1-9-neon.vercel.app/)
+## 👨‍👩‍👧‍👦 9팀
+
+## **✨ 배포링크**
+
+### [한국임상정보 검색](https://pre-onboarding-7th-3-1-9-neon.vercel.app/)
 
 <br>
 
-## 사용 Tools
+## 📝 Description 
+원티드 프리온보딩에서 진행하는 기업과제입니다. 
+한국임상정보 사이트의 검색 영역을 클론하는 과제입니다. 
+검색창과 검색어 추천 기능을 구현하면 됩니다. 
+언어는 타입스크립트, 전역 상태 관리는 Redux-toolkit을 사용했습니다.
+스타일 라이브러리는 Styled-components를 사용했습니다.
+json server를 vercel로 배포해서 사용했습니다.
+
+<br>
+
+## 🛠️ Dev Tools
 
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
   <img src="https://img.shields.io/badge/redux_toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=black"> 
   <img src="https://img.shields.io/badge/styled_components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-  <img src="https://img.shields.io/badge/typescript-DB7093?style=for-the-badge&logo=typescript&logoColor=white"> 
+  <img src="https://img.shields.io/badge/typescript-61DAFB?style=for-the-badge&logo=typescript&logoColor=white"> 
   <br>
-
-<br>
-
-## ✏ 토의 내용 및 선정
-
-[🖍 1차 토의결과](https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/discussions/1)  
-[🖍 2차 토의결과](https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/discussions/1)
-
-[🥇 선정 결과](https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/discussions/1)
-
-<br>
 
 ## **📝 디렉토리 구조**
 
@@ -52,7 +55,8 @@
 
 ## [Assignment 1] 사용자가 입력한 텍스트와 일치하는 부분 볼드처리 ✔️ 
 
-https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37bdab8c2132f77740ab81e77456/src/components/main/ParseSearchWordBold.tsx#L1-L16
+https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/components/main/ParseSearchWordBold.tsx#L1-L16
+
 
 - searchWord(검색어), text(검색 결과)
 
@@ -66,7 +70,7 @@ https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37
 
 ![image](https://user-images.githubusercontent.com/72599761/201175536-2b43eb81-902d-44ae-aaf0-f76338f49d65.png)
 
-https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37bdab8c2132f77740ab81e77456/src/components/main/AutoCompleteItemList.tsx#L6-L23
+https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/components/main/AutoCompleteItemList.tsx#L6-L23
 
 - sickData와 isLoading을 리덕스에서 전역으로 관리 
 - sickData의 길이가 0일 때 검색어가 없습니다 문구를 보여준다. 
@@ -80,13 +84,13 @@ https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37
 
 ![image](https://user-images.githubusercontent.com/72599761/201178179-84b13abf-c5b1-4130-b822-702e24ec9051.png)
 
-https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37bdab8c2132f77740ab81e77456/src/apis/clinicalTrialService.ts#L11-L33
+https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/apis/clinicalTrialService.ts#L1-L34
 
 <br>
 
 ### [Assignment 3-2]입력마다 API 호출하지 않도록 API 호출 횟수를 줄이는 방법
 
-https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37bdab8c2132f77740ab81e77456/src/hooks/useDebounceSickData.tsx#L1-L28
+https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/hooks/useDebounceSickData.tsx#L6-L26
 
 - 이전에는 간염이라는 단어를 입력하면 ㄱ ㅏ ㄴ ㅇ ㅕ ㅁ 글자 하나마다 onChange 이벤트가 발생하므로 api call이 6번 일어났습니다.   
 
@@ -102,7 +106,7 @@ https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37
 
 ## [Assignment 5]  input 마우스로 클릭했을 때 추천 검색어 창 노출, 외부 클릭하면 추천 검색어 창 닫힘 
 
-https://github.com/Wanted-07-team-9/pre-onboarding-7th-3-1-9/blob/83987b7f46ad37bdab8c2132f77740ab81e77456/src/hooks/useFocusAutocomplete.tsx#L5-L26
+https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/hooks/useFocusAutocomplete.tsx#L5-L26
 
  input영역을 마우스로 누르면 검색어 추천 창이 나오고, input의 외부 영역을 누르면 검색어 추천 창이 안보이게 custom hook을 만들었습니다. searchInput 을 반환합니다. 
    
