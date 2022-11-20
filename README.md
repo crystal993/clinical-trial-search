@@ -100,11 +100,8 @@ https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01b
 
 <br>
 
-##  [Assignment 4]  키보드로 추천 검색어로 이동하는 방법
 
-구현 중입니다..! 
-
-## [Assignment 5]  input 마우스로 클릭했을 때 추천 검색어 창 노출, 외부 클릭하면 추천 검색어 창 닫힘 
+## [Assignment 4]  input 마우스로 클릭했을 때 추천 검색어 창 노출, 외부 클릭하면 추천 검색어 창 닫힘 
 
 https://github.com/crystal993/clinical-trial-search/blob/67607e5cdf1784b8559e01bb566f35bf62731395/src/hooks/useFocusAutocomplete.tsx#L5-L26
 
